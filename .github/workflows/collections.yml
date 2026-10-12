@@ -49,6 +49,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "Update DSE Market Data"
+            git commit -m "Dar es salaam Stock Exchange Data Collections Completed✨"
             git push
           fi
